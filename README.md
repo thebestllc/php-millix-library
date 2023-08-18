@@ -38,7 +38,7 @@ params are an associative array.
 ```
     $param['p0']='1KDBhw67ewrjME1kVJnbtwdpWPgtJoTckd0a01KDBhw67ewrjME1kVJnbtwdpWPgtJoTckd';
 
-    var_dump(get_address_balance($param);
+    var_dump(get_address_balance($param));
 ```
 >
 > 
