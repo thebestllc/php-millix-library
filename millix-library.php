@@ -691,11 +691,14 @@ function millix_api($api,$param)
 	else
 	{
             $url.="?";
-            foreach($param as $key=>$val) 
+	    if ($param != null)
 	    {
-           	$url.=$key."=".urlencode($val)."&";
-            }
-            $url=rtrim($url,"&");
+            	foreach($param as $key=>$val) 
+	    	{
+           	    $url.=$key."=".urlencode($val)."&";
+            	}
+                $url=rtrim($url,"&");
+	    }
 	}
 
 //---- for debuging purposes ---
