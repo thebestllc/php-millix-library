@@ -14,9 +14,9 @@ Three values are global and are required to access the api.
 >
 
 >
-##Example:
+## Example:
 >
->This example uses a throwaway wallet created just for this.
+> This example uses a throwaway wallet created just for this.
 >
 ```
 <?php
@@ -31,12 +31,12 @@ Three values are global and are required to access the api.
     var_dump(get_session());
 ```
 >
->which if all goes well will return:
+> which if all goes well will return:
 ```
 string(302) "{"api_status":"success","wallet":{"id":"UfWT4cXERIjRUFz+J3VKfKArJoSY2W+7PZlQiH03iqY=","address":"1KDBhw67ewrjME1kVJnbtwdpWPgtJoTckd0a01KDBhw67ewrjME1kVJnbtwdpWPgtJoTckd","address_key_identifier":"1KDBhw67ewrjME1kVJnbtwdpWPgtJoTckd","address_public_key":"22rWHt1iiwJwBKMZBXHNHYtWFKivbxCLDF7mRZuiMjPZa"}}"
 ```
 >
->The address is the prime address and the address_key_identifier identifies the wallet.
+> The address is the prime address and the address_key_identifier identifies the wallet.
 >
 
 
