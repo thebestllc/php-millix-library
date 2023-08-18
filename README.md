@@ -4,6 +4,12 @@
 This is a library in php for accessing the api's for the millix cryptocurrency.
 In order to use this you need to be running the millix-node software or the tangled browser.
 The tangled browser includes the millix-node software in it.
+> 
+For millix-node users you can find node.json in the millix directory in your home directory.
+> 
+For tangled users you can find node.json in the tangled-millix directory in your home directory.
+> 
+> 
 
 Three values are global and are required to access the api.
 >
