@@ -184,6 +184,16 @@ function get_transaction_output($param = null)
     return(millix_api('KN2ZttYDEKzCulEZ', $param));
 }
 
+function get_transaction_output_attribute_received($param = null)
+{
+    // returns received transaction attribute records from table transaction_output_attribute
+    // p0: transaction_id (required)
+    // p1: shard_id
+    // p2: attribute_type_id
+    // p3: data_type
+    return(millix_api('yyCtgjuFu9mx0edg', $param));
+}
+
 function get_transaction_output_data($param = null)
 {
     // get binary data stored as a transaction output file
@@ -420,16 +430,6 @@ function list_transaction_output_attribute_received($param = null)
     // p14: record_limit=1000
     // p15: shard_id
     return(millix_api('Mu7VpxzfYyQimf3V', $param));
-}
-
-function list_transaction_output_attribute_received($param = null)
-{
-    // returns received transaction attribute records from table transaction_output_attribute
-    // p0: transaction_id (required)
-    // p1: shard_id
-    // p2: attribute_type_id
-    // p3: data_type
-    return(millix_api('yyCtgjuFu9mx0edg', $param));
 }
 
 function list_transaction_output_attribute_sent($param = null)
